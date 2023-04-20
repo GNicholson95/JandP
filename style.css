@@ -13,11 +13,9 @@ body{
    /* nav section */
 
     nav{
-    mix-blend-mode: difference;
     margin-bottom: 1rem;
    }
-    
- 
+  /*  
   #logo{
     color: #fff;
     font-size: 2.5rem;
@@ -25,13 +23,17 @@ body{
     font-weight: bold;
     letter-spacing: 3px;
   }
-
+ 
+ 
   #logo:hover{
     cursor:default;
   }
+ */
 
-  
-  
+ .navbar{
+  mix-blend-mode: difference;
+ }
+
   .navbar-light .navbar-brand {
     color: #fff;
     font-size: 25px;
@@ -65,8 +67,6 @@ body{
   .navbar-nav {
     text-align: center;
   }
-
-
   
   .navbar-toggler {
     width: 20px;
@@ -143,11 +143,10 @@ body{
 
   /* nav section */
 
-/* carousel */
+
 
 .carousel-item {
   width: 100vw;
-  height: 100vh;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -164,7 +163,7 @@ body{
   left:0;
   right:0;
   background:rgba(0,0,0,0.3);
-  max-height: 100vh;
+  height: 100vh;
 }
 
 .carousel-caption {
@@ -184,6 +183,7 @@ body{
   font-size: 18px;
   line-height: 1.9;
 }
+
 
 
 /* carousel */
