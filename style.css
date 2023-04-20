@@ -17,10 +17,7 @@ body{
     margin-bottom: 1rem;
    }
     
-  .container{
-   color: #fff;
-  }
-
+ 
   #logo{
     color: #fff;
     font-size: 2.5rem;
@@ -191,15 +188,10 @@ body{
 
 /* carousel */
 
+
 /* about */
 
-
 .about-me{
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-wrap: wrap;
-  min-height: 70vh;
   background-color: #373d37;
 }
 
@@ -211,9 +203,10 @@ body{
 
 
 .card-1{
-flex:0 1 calc(40% - 1em);
 background: transparent;
 align-self: center;
+min-width: 250px;
+width: 40%;
 }
 
 .card-1 img{
@@ -227,25 +220,66 @@ border: none;
 }
 
 .card-2{
-flex:0 1 calc(60% - 1em);
 font-size: 1.2rem;
 letter-spacing: 0.5px;
 font-family: 'Nunito Sans', sans-serif;
 align-self: center;
-}
-.card-2 p{
-font-weight: 200;
-}
-
-/* about */
-
-/* about */
-
-#why-us{
-min-height: 70vh;
+min-width: 250px;
+width: 60%;
+text-align: center;
 }
 
 /* about */
+
+/* pricing */
+#price-section{
+  background-color: #373d37;
+}
+
+.price-innerdetail h5 {
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.price-innerdetail p {
+  font-size: 50px;
+}
+
+.detail-pricing {
+  border-bottom: 1px solid;
+  padding: 30px 0 30px 0;
+}
+
+.detail-pricing .float-left {
+  padding: 0 0 0 40px;
+}
+
+.detail-pricing .float-left i {
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+}
+
+.detail-pricing span {
+  display: inline-block;
+  position: relative;
+  font-weight: 400;
+}
+
+.wrap-price {
+  background: #fff;
+  padding: 50px 20px 50px;
+  border-radius: 10px;
+  color: #070707;
+}
+
+.center-wrap {
+  background: #070707;
+  color: #fff;
+}
+
+/* pricing */
 
    /* footer section */
 
